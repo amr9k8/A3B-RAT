@@ -35,8 +35,13 @@
 ## Evasion Techniques :<br>
 ### To avoid detection by antivirus software and other security measures. The  A3B RAT  uses several techniques to make it more difficult for security software to detect and block its activities.<br>
 
-### 1- One of the primary techniques used by the  A3B RAT  is the conversion of the full features of the malware into shellcode. Shellcode is a type of code that is designed to be directly executed by a computer's processor, without the need for a separate program. This technique allows the  A3B RAT  to operate in a more stealthy manner, as it does not require any external programs or files to be executed on the target system.<br>
-
+### 1-RATA3B uses is a multi-stage infection process.<br>
+#### The malware consists of two stages, where the first stage only contains code to retrieve the second stage from the server at runtime.<br>
+#### The second stage of the malware is the fully functional malware in the form of shellcode. By splitting the malware into two stages, the attacker can make it harder for security software to detect the presence of the malware on the victim's machine.<br>
+#### The first stage of the malware is designed to be lightweight and stealthy, with minimal functionality. Its main purpose is to retrieve the second stage of the malware from the server and inject it into memory. This makes it harder for security software to detect the presence of the malware, since the majority of the malicious code is not present on the victim's machine until runtime.<br>
+#### The second stage of the malware, which is injected into memory at runtime, is the fully functional malware that contains all of the keylogging, password stealing, screenshot, PowerShell execution, and file transfer functionality. By using a multi-stage infection process, the attacker can make it more difficult for security software to detect and remove the malware from the victim's machine.<br>
+#### Overall By splitting the malware into multiple stages, the attacker can make it harder for security software to detect the presence of the malware on the victim's machine and increase the overall stealthiness of the malware.<br>
+ 
 ### 2- To further enhance its evasion capabilities, the shellcode is encrypted using a custom encryption algorithm. This encryption helps to prevent antivirus software from detecting the RAT  based on its signature or behavior. The encryption key for the shellcode is generated dynamically at runtime, making it more difficult for security software to detect.<br>
 
 ### 3- In addition to encryption, the  A3B RAT  also uses runtime Process injection technique to inject the shellcode into memory at runtime. This technique allows the RAT tool to operate without leaving any traces on the target system's hard drive, making it more difficult for antivirus software to detect and block it.<br>
