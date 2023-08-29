@@ -1,0 +1,3 @@
+﻿  stage2rat.cpp
+E:\Malware Development\practice realworld\stage2rat - Copy\stage2rat\stage2rat.cpp(265,6): warning C4267: 'argument': conversion from 'size_t' to 'socklen_t', possible loss of data
+  stage2rat.vcxproj -> E:\Malware Development\practice realworld\stage2rat - Copy\x64\Debug\stage2rat.exe
