@@ -1,0 +1,11 @@
+﻿  Source.cpp
+E:\Malware Development\client1\Project1\SocketsConnection.h(57,6): warning C4267: 'argument': conversion from 'size_t' to 'socklen_t', possible loss of data
+E:\Malware Development\client1\Project1\SocketsConnection.h(185,85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Malware Development\client1\Project1\SocketsConnection.h(195,16): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+E:\Malware Development\client1\Project1\SocketsConnection.h(221,24): warning C4244: 'initializing': conversion from 'std::streamsize' to 'int', possible loss of data
+E:\Malware Development\client1\Project1\SocketsConnection.h(308,24): warning C4244: 'initializing': conversion from 'SOCKET' to 'unsigned int', possible loss of data
+E:\Malware Development\client1\Project1\SocketsConnection.h(355,85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Malware Development\client1\Project1\SocketsConnection.h(389,85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Malware Development\client1\Project1\SocketsConnection.h(425,85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Malware Development\client1\Project1\InfoExtractor.h(179): warning C4715: 'prepareMasterKey': not all control paths return a value
+  Project1.vcxproj -> E:\Malware Development\client1\x64\Debug\Project1.exe
