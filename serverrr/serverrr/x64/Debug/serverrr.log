@@ -1,0 +1,4 @@
+﻿  Controller.cpp
+E:\Malware Development\RAT2 Malware\serverrr\Controller.h(40,2): warning C4091: 'typedef ': ignored on left of 'connectedClient' when no variable is declared
+E:\Malware Development\RAT2 Malware\serverrr\Controller.cpp(223,16): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+  serverrr.vcxproj -> E:\Malware Development\RAT2 Malware\x64\Debug\serverrr.exe

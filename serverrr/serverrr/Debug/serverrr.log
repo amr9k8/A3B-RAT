@@ -1,0 +1,11 @@
+﻿  Controller.cpp
+D:\GP\RAT2 Malware\serverrr\Controller.h(39,2): warning C4091: 'typedef ': ignored on left of 'connectedClient' when no variable is declared
+  sEncryption.cpp
+  serverrr.cpp
+D:\GP\RAT2 Malware\serverrr\Controller.h(39,2): warning C4091: 'typedef ': ignored on left of 'connectedClient' when no variable is declared
+D:\GP\RAT2 Malware\serverrr\serverrr.cpp(179,23): warning C4018: '<': signed/unsigned mismatch
+D:\GP\RAT2 Malware\serverrr\serverrr.cpp(212,18): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\GP\RAT2 Malware\serverrr\serverrr.cpp(42,1): warning C4102: 'std': unreferenced label
+D:\GP\RAT2 Malware\serverrr\serverrr.cpp(268,26): warning C4101: 'e': unreferenced local variable
+  Generating Code...
+  serverrr.vcxproj -> D:\GP\RAT2 Malware\Debug\serverrr.exe
